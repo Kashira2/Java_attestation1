@@ -53,6 +53,7 @@ public class main {
 
         findLaptops(laptops, n, scr);
 
+        scr.close();
     }
 
     private static void findLaptops(HashSet laptops, int n, Scanner scr) {
