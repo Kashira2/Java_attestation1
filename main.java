@@ -52,7 +52,7 @@ public class main {
         int n = scr.nextInt();
 
         findLaptops(laptops, n, scr);
-        
+
     }
 
     private static void findLaptops(HashSet laptops, int n, Scanner scr) {
@@ -69,25 +69,29 @@ public class main {
                     case 1:
                         for (Object items : laptops) {
                             if (((NoteBook) items).getRam() >= 4)
-                                System.out.println(((NoteBook) items).getName());
+                                System.out.println(
+                                        ((NoteBook) items).getName() + " - " + ((NoteBook) items).getRam() + " ГБ");
                         }
                         break;
                     case 2:
                         for (Object items : laptops) {
                             if (((NoteBook) items).getRam() >= 8)
-                                System.out.println(((NoteBook) items).getName());
+                                System.out.println(
+                                        ((NoteBook) items).getName() + " - " + ((NoteBook) items).getRam() + " ГБ");
                         }
                         break;
                     case 3:
                         for (Object items : laptops) {
                             if (((NoteBook) items).getRam() >= 16)
-                                System.out.println(((NoteBook) items).getName());
+                                System.out.println(
+                                        ((NoteBook) items).getName() + " - " + ((NoteBook) items).getRam() + " ГБ");
                         }
                         break;
                     case 4:
                         for (Object items : laptops) {
                             if (((NoteBook) items).getRam() >= 32)
-                                System.out.println(((NoteBook) items).getName());
+                                System.out.println(
+                                        ((NoteBook) items).getName() + " - " + ((NoteBook) items).getRam() + " ГБ");
                         }
                         break;
                     default:
@@ -108,25 +112,29 @@ public class main {
                     case 1:
                         for (Object items : laptops) {
                             if (((NoteBook) items).getHdd() >= 256)
-                                System.out.println(((NoteBook) items).getName());
+                                System.out.println(
+                                        ((NoteBook) items).getName() + " - " + ((NoteBook) items).getHdd() + " ГБ");
                         }
                         break;
                     case 2:
                         for (Object items : laptops) {
                             if (((NoteBook) items).getHdd() >= 512)
-                                System.out.println(((NoteBook) items).getName());
+                                System.out.println(
+                                        ((NoteBook) items).getName() + " - " + ((NoteBook) items).getHdd() + " ГБ");
                         }
                         break;
                     case 3:
                         for (Object items : laptops) {
                             if (((NoteBook) items).getHdd() >= 1024)
-                                System.out.println(((NoteBook) items).getName());
+                                System.out.println(
+                                        ((NoteBook) items).getName() + " - " + ((NoteBook) items).getHdd() + " ГБ");
                         }
                         break;
                     case 4:
                         for (Object items : laptops) {
                             if (((NoteBook) items).getHdd() >= 2048)
-                                System.out.println(((NoteBook) items).getName());
+                                System.out.println(
+                                        ((NoteBook) items).getName() + " - " + ((NoteBook) items).getHdd() + " ГБ");
                         }
                         break;
                     default:
